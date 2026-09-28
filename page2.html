@@ -1,48 +1,75 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Notable Detroit Lions Players</title>
-  </head>
 
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notable Detroit Lions Players</title>
+
+    <!-- Connect the CSS stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
     <!-- Page title -->
     <header>
-      <h1>Notable Detroit Lions Players</h1>
+        <h1>Notable Detroit Lions Players</h1>
     </header>
 
     <!-- Main page content -->
     <main>
-      <section>
-        <p>
-          Many talented players have played for the Detroit Lions throughout
-          the team's history. Some became known as some of the greatest players
-          at their positions.
-        </p>
 
-        <h2>Famous Lions</h2>
+        <!-- Flexbox container -->
+        <div class="flex-container">
 
-        <p>
-          The Lions have had memorable players from different eras of the team.
-          These players helped shape the history and identity of the franchise.
-        </p>
-      </section>
+            <!-- Introduction section -->
+            <section id="players-intro">
 
-      <!-- Ordered list -->
-      <section>
-        <h3>Some Notable Players</h3>
+                <h2 class="subheader">Famous Lions</h2>
 
-        <ol>
-          <li>Barry Sanders</li>
-          <li>Calvin Johnson</li>
-          <li>Matthew Stafford</li>
-          <li>Jared Goff</li>
-        </ol>
-      </section>
+                <p>
+                    Many talented players have played for
+                    the Detroit Lions throughout the team's
+                    history. Some became known as some of
+                    the greatest players at their positions.
+                </p>
+
+                <p>
+                    The Lions have had memorable players
+                    from different eras of the team.
+                    These players helped shape the history
+                    and identity of the franchise.
+                </p>
+
+            </section>
+
+            <!-- Notable players section -->
+            <section id="notable-players">
+
+                <h2 class="subheader">
+                    Some Notable Players
+                </h2>
+
+                <!-- Ordered list -->
+                <ol>
+                    <li>Barry Sanders</li>
+                    <li>Calvin Johnson</li>
+                    <li>Matthew Stafford</li>
+                    <li>Jared Goff</li>
+                </ol>
+
+            </section>
+
+        </div>
+
     </main>
 
-    <!-- Link back to the homepage -->
+    <!-- Link back to homepage -->
     <footer>
-      <a href="index.html">Back to Detroit Lions History</a>
+        <a class="button" href="index.html">
+            Back to Homepage
+        </a>
     </footer>
-  </body>
+
+</body>
 </html>
